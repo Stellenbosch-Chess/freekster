@@ -1,3 +1,3 @@
 # Chess
 
-[Upcomming tournamnets]{tournaments.md}
+[Upcomming tournamnets](tournaments.md)
