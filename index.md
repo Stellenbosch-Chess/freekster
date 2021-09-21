@@ -1,3 +1,3 @@
 # Chess
 
-[Other page]{tournaments}
+[Upcomming tournamnets]{tournaments.md}
