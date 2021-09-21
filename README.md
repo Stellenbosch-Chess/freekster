@@ -1,3 +1,35 @@
+---
+
+title: Help Center
+
+navigation:
+
+  - section: Help Center
+
+  - document: overview_doc
+
+    label: Overview
+
+  - document: data_sources_doc
+
+    label: Data Sources
+
+  - document: data_definitions_doc
+
+    label: Data Definitions
+
+  - document: faq_doc
+
+    label: FAQ
+
+  - document: release_notes_doc
+
+    label: Release Notes
+
+---
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/Stellenbosch-Chess/freekster/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
