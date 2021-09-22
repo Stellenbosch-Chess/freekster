@@ -9,4 +9,4 @@ Venue: Paul Roos Gymenasium.
 
 [Event Registration](https://chesshub.org.za/events/western-cape-closed-championship-2021/)
 
-[More information](../../WC_Closed_2021.pdf)
+[More information](../../../../../WC_Closed_2021.pdf)
