@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Western Cape Closed"
+title: "Western Cape Closed: 24 - 26 September"
 categories: Upcomming Chess Tournaments
 ---
 R11 500 guaranteed prize fund.
