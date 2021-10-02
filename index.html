@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" type="text/css" href="https://pgn.chessbase.com/CBReplay.css"/>
+<script src="https://pgn.chessbase.com/jquery-3.0.0.min.js"></script>
+<script src="https://pgn.chessbase.com/cbreplay.js" type="text/javascript"></script>
 <style>
 body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
 body {font-size:16px;}
@@ -55,6 +58,7 @@ div.desc {
     <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
     <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About Us</a> 
     <a href="#tournaments" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Tournaments</a> 
+    <a href="#game" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Game of the Week</a> 
     <a href="#news" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Chess News</a> 
     <a href="#quote" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Chess Quote of the Week</a> 
     <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact Us</a>
@@ -125,6 +129,37 @@ div.desc {
     </div>
     
     
+  </div>
+
+  <!--Game-->
+  <div class="w3-container" id="game" style="margin-top:75px">
+    <hr>
+    <hr>
+    <h3 class="w3-xxxlarge w3-text-black"><b>Game of the Week</b></h3>
+    <hr style="width:50px;border:5px solid gold" class="w3-round">
+
+    <div class="cbreplay">
+
+      [Event "Western Cape Closed 2021"]
+      [White "Van der Merwe, Alexander"]
+      [Black "de Jager, Andreas"]
+      [Site "Stellenbosch"]
+      [Result "1–0"]
+      [Date "2021.09.24"] 
+    
+      1. e4 c5 2. Nf3 Nc6 3. Bb5 g6 4. O-O Bg7 5. Nc3 a6 6. Bxc6 dxc6 7. d3 h6 8. Re1
+e5 9. Be3 b6 10. Na4 Rb8 11. c3 Bg4 12. h3 Bxf3 13. Qxf3 Qxd3 14. Rad1 Qc4 15.
+b3 Qe6 16. Qe2 Qc8 17. b4 Nf6 18. f3 Nd7 19. bxc5 b5 20. Nb6 Nxb6 21. cxb6 O-O
+22. a4 Qe6 23. a5 Qb3 24. Bc5 Qxc3 25. Bxf8 Bxf8 26. Qa2 Bb4 27. Kh2 Kg7 28.
+Rd7 Qc4 29. Qxc4 bxc4 30. Ra1 c3 31. Rdd1 Kf6 32. Kg3 Bc5 33. Ra2 Ke6 34. f4
+Bd4 35. Kf3 c5 36. g3 h5 37. Ke2 f5 38. exf5+ gxf5 39. fxe5 Rg8 40. Kf3 Kxe5
+41. Rc2 Rg7 42. Rb1 Rb7 43. Rd1 Rb8 44. Rd3 Rb7 45. Ke2 Ke4 46. Rdxc3 Bxc3 47.
+Rxc3 Kd4 48. Kd2 c4 49. Rf3 Rf7 50. Rf4+ Kc5 51. Kc3 Kb5 52. g4 hxg4 53. hxg4
+Rd7 54. Rxf5+ Kc6 55. Kxc4 { black resigns} 
+      
+      </div>
+
+
   </div>
   
     <!-- News -->
